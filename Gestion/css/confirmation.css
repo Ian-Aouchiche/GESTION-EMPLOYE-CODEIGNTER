@@ -1,0 +1,21 @@
+con {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1f84f7;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; /* Supprime le soulignement du lien */
+    display: inline-block; /* Affichage en ligne pour s'adapter à la largeur du contenu */
+    transition: background-color 0.3s ease; /* Animation de transition */
+}
+
+con:hover {
+    background-color: #155d9b; /* Couleur de survol */
+}
+p {
+    font-size: 18px; /* Taille de police plus grande */
+    text-align: center; /* Centrage du texte */
+}
